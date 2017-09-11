@@ -1,0 +1,30 @@
+{
+  "name": "ticker-slash-command",
+  "version": "1.0.0",
+  "description": "Mixmax slash command to insert a stock chart widget into an email.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixmaxhq/giphy-example-slash-command.git"
+  },
+  "author": "Justin Knichel",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "pem": "^1.8.3",
+    "request": "^2.64.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
